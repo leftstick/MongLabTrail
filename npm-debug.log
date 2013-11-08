@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mime' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'mime', null ]
+6 verbose cache add name=undefined spec="mime" args=["mime",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'mime',
+7 verbose parsed url   path: 'mime',
+7 verbose parsed url   href: 'mime' }
+8 silly lockFile c6d51ab0-mime mime
+9 verbose lock mime C:\Users\ehaozuo\AppData\Roaming\npm-cache\c6d51ab0-mime.lock
+10 silly lockFile c6d51ab0-mime mime
+11 silly lockFile c6d51ab0-mime mime
+12 verbose addNamed [ 'mime', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 997db655-mime mime@
+15 verbose lock mime@ C:\Users\ehaozuo\AppData\Roaming\npm-cache\997db655-mime.lock
+16 silly addNameRange { name: 'mime', range: '*', hasData: false }
+17 verbose url raw mime
+18 verbose url resolving [ 'https://registry.npmjs.org/', './mime' ]
+19 verbose url resolved https://registry.npmjs.org/mime
+20 info trying registry request attempt 1 at 10:09:49
+21 http GET https://registry.npmjs.org/mime
+22 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+23 info trying registry request attempt 2 at 10:10:20
+24 http GET https://registry.npmjs.org/mime
+25 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+26 info trying registry request attempt 3 at 10:11:41
+27 http GET https://registry.npmjs.org/mime
+28 silly lockFile 997db655-mime mime@
+29 silly lockFile 997db655-mime mime@
+30 error Error: connect ETIMEDOUT
+30 error     at errnoException (net.js:901:11)
+30 error     at Object.afterConnect [as oncomplete] (net.js:892:19)
+31 error If you need help, you may report this log at:
+31 error     <http://github.com/isaacs/npm/issues>
+31 error or email it to:
+31 error     <npm-@googlegroups.com>
+32 error System Windows_NT 6.1.7601
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mime"
+34 error cwd C:\Users\ehaozuo\designenv\apache-tomcat-7.0.39\webapps\mongolab
+35 error node -v v0.10.13
+36 error npm -v 1.3.2
+37 error syscall connect
+38 error code ETIMEDOUT
+39 error errno ETIMEDOUT
+40 verbose exit [ 1, true ]

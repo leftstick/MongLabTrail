@@ -1,0 +1,7 @@
+a:focus{
+		   outline: 0;
+}
+.panel {
+	max-width: 500px;
+	margin: 0 auto;
+}

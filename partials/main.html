@@ -1,0 +1,17 @@
+
+<table class="table table-hover">
+	<thead>
+		<tr class="success">
+			<th>USER_NAME</th>
+			<th>USER_AGE</th>
+			<th><th>
+		</tr>
+	</thead>
+    <tbody>
+    	<tr ng-repeat="user in users">
+    		<td><a href="#/update/{{user.name}}">{{user.name}}</a></td>
+    		<td>{{user.age}}</td>
+    		<td><span class="btn glyphicon glyphicon-trash" ng-click="delete(user.name)"></span></td>
+    	</tr>
+    </tbody>
+</table>

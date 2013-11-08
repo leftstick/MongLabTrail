@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" ng-app="mongo">
+<head>
+	<meta charset="UTF-8">
+	<title>MongoLab</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" type="text/css" href="css/outline.css">
+	<script type="text/javascript" src="libs/jquery-2.0.3.js"></script>
+	<script type="text/javascript" src="libs/angular-1.0.7.js"></script>
+	<script type="text/javascript" src="crud.js"></script>
+	<script type="text/javascript" src="app/directive.js"></script>
+</head>
+<body>
+    
+    <div class="panel panel-info">
+    	<div class="panel-heading">CRUD with mongolab</div>
+	    <div class="panel-body">
+			<ul class="nav nav-tabs" switch-class>
+			    <li><a href="#/add">add</a></li>
+			    <li class="active"><a href="#/">view</a></li>
+			</ul>
+
+			<div ng-view></div>
+		</div>
+		<div class="panel-footer" switch-footer></div>
+	</div>
+</body>
+</html>
